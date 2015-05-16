@@ -1,0 +1,7 @@
+[package]
+name = "sync-fork"
+version = "0.1.0"
+authors = ["YANG Xudong <i@yxd.io>"]
+
+[dependencies.nickel]
+git = "https://github.com/nickel-org/nickel.rs.git"
