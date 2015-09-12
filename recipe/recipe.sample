@@ -1,4 +1,5 @@
 #!/bin/sh
+# Should be save as profile.recipe in this directory.
 
 SOURCE=https://github.com/pkg/profile.git
 SOURCE_BRANCH=master
