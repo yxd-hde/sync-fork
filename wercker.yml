@@ -1,5 +1,5 @@
 build:
-  box: google/debian
+  box: google/debian:wheezy
   steps:
     - script:
         name: sync
