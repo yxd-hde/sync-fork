@@ -21,6 +21,10 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - script:
+        name: install-git
+        code: |
+          sudo apt-get install git
+    - script:
         name: sync
         code: |
           bash sync.bash
