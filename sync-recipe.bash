@@ -28,7 +28,7 @@ git pull -v --ff-only
 
 # Setup credentials
 git config --global credential.helper store
-echo "https://${FORK_USER}:${FORK_PASSWIRD}@github.com" > \
+echo "https://${FORK_USER}:${FORK_PASSWORD}@github.com" > \
      ${HOME}/.git-credentials
 
 # Push to fork repository
