@@ -2,6 +2,7 @@
 
 set -x
 set -v
+set -e
 
 FORK_REMOTE_NAME="fork"
 REPOS="${WERCKER_CACHE_DIR}/repos"
