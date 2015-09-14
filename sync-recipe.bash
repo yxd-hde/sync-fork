@@ -32,7 +32,7 @@ echo "https://${FORK_USER}:${FORK_PASSWORD}@github.com" > \
      ${HOME}/.git-credentials
 
 # Push to fork repository
-FORK_REMOTE=$(git remote | grep -q ${FORK_REMOTE_NAME} || :)
+FORK_REMOTE=$(git remote | grep -s ${FORK_REMOTE_NAME} || :)
 if [ -z ${FORK_REMOTE} ]; then
     git remote add ${FORK_REMOTE_NAME} ${FORK}
 fi
