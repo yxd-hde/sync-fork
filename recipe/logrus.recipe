@@ -1,0 +1,10 @@
+#!/bin/sh
+
+SOURCE=https://github.com/Sirupsen/logrus
+SOURCE_BRANCH=master
+
+FORK=https://github.com/yxd-hde/logrus.git
+FORK_BRANCH=master
+
+FORK_USER=${GITHUB_WORK_USER}
+FORK_PASSWORD=${GITHUB_WORK_TOKEN}
