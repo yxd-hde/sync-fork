@@ -1,5 +1,5 @@
 build:
-  box: samueldebruyn/debian-git
+  box: yxdhde/debian-git-curl
   steps:
     - script:
         name: sync
@@ -7,4 +7,4 @@ build:
           bash sync.bash
   after-steps:
     - slack-notifier:
-            url: $SLACK_WEBHOOK_URL
+        url: $SLACK_WEBHOOK_URL
