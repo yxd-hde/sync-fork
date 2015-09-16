@@ -25,6 +25,7 @@ git checkout ${SOURCE_BRANCH} || \
     git checkout -b ${SOURCE_BRANCH} --track origin/${SOURCE_BRANCH}
 git remote update
 git pull -v --ff-only
+echo "Current revision:" $(git rev-parse HEAD)
 
 # Setup credentials
 git config --global credential.helper store
