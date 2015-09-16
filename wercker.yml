@@ -1,5 +1,5 @@
 build:
-  box: yxdhde/debian-git-curl
+  box: yxdhde/alpine-curl-git
   steps:
     - script:
         name: sync
